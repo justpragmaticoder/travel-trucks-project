@@ -67,7 +67,7 @@ This will serve the files from the dist folder using a local server.
 
 ## Live Preview
 
-You can view the live version of the app hosted on Vercel: [Camper Adventure Rental](https://test.com)
+You can view the live version of the app hosted on Vercel: [Camper Adventure Rental](https://travel-trucks-project-tan.vercel.app/)
 
 ## Technologies Used
 

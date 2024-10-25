@@ -1,0 +1,13 @@
+.camperStarRating {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.camperStar {
+  font-size: 16px; /* Adjust size of stars */
+  color: #F2F4F7; /* Default color for empty stars */
+}
+
+.camperStar.filled {
+  color: #FFC531; /* Color for filled stars */
+}

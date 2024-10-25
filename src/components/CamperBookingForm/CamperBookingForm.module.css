@@ -1,0 +1,160 @@
+.camperFormWrapper {
+    display: flex;
+    width: 641px;
+    padding: 44px 57px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 24px;
+    border-radius: 10px;
+    border: 1px solid #DADDE1;
+}
+
+.camperFormHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 8px;
+    width: 527px;
+}
+
+.camperFormTitle {
+    color: #101828;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.camperFormSubtitle {
+    color: #6C717B;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Form body styling */
+.camperFormBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 14px;
+}
+
+/* Form field styling */
+.inputField {
+    display: flex;
+    width: 527px;
+    height: 60px;
+    padding: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+    border-radius: 12px;
+    background: #F7F7F7;
+    border: none;
+    color: #6C717B;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Error notification styling */
+.errorText {
+    color: #FF4B4B;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Styling for text area */
+.camperFormWrapper textarea {
+    height: 118px;
+    resize: none;
+}
+
+/* Button styling */
+.actionButton {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    row-gap: 10px;
+    width: 527px;
+    margin-top: 10px;
+}
+
+.camperFormWrapper button {
+    background-color: #E44848;
+    color: #FFF;
+    padding: 16px 60px;
+    border: none;
+    border-radius: 200px;
+    font-size: 16px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.camperFormWrapper button:hover {
+    background-color: #D84343;
+}
+
+/* Popup message box */
+.notificationBox {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #FFF;
+    color: #101828;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    animation: slideIn 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    border: 2px solid #4CAF50;
+}
+
+.notificationBox .notificationText {
+    margin: 0;
+    font-size: 16px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.notificationBox .dismissButton {
+    background-color: #FFF;
+    color: #101828;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 200px;
+    border: 1px solid #DADDE1;
+    padding: 16px 40px;
+}
+
+.notificationBox .dismissButton:hover {
+    background-color: #FFF;
+    border-color: #D84343;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

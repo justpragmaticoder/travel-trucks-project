@@ -1,0 +1,145 @@
+.camperContainer {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #DADDE1;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.camperImage {
+  width: 292px;
+  height: 320px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.camperContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 524px;
+  flex-shrink: 0;
+  align-items: flex-start;
+}
+
+.titleLocationWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.favoriteIcon {
+  cursor: pointer;
+  transition: fill 0.3s;
+  fill: #101828;
+}
+
+.favoriteIconActive {
+  fill: #E44848;
+}
+
+.favoriteButtonReset {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.camperNameText {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #101828;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.priceText {
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #101828;
+}
+
+.ratingLocationWrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.locationWrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.ratingWrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.descriptionText {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #475467;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.infoGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background: #F2F4F7;
+  border-radius: 100px;
+  text-transform: capitalize;
+  gap: 8px;
+}
+
+.showMore {
+  background-color: #E44848;
+  color: white;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 200px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.showMore:hover {
+  background-color: #D84343;
+}

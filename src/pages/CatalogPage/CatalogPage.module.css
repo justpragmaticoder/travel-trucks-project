@@ -1,0 +1,9 @@
+/* Container for the catalog page */
+.catalogPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+  max-width: 1312px;
+  margin: 0 auto;
+  gap: 64px;
+}

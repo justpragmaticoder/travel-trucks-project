@@ -1,0 +1,21 @@
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.circularSpinner {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 8px solid #DADDE1;
+  border-top-color: #475467;
+  animation: rotateSpinner 1s infinite linear;
+}
+
+@keyframes rotateSpinner {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
